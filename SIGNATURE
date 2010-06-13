@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.64.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 977d6780caca05f9d77fbaa4a0bde6ff1601d325 Changes
+SHA1 98390605ffd7cdd8055f82381f6d2076ba85fbb3 INSTALL
+SHA1 1f30460f7008f3e8891ac68537164be1e41d196f LICENSE
+SHA1 16f332417542853940ac223d1acc553babc5b875 MANIFEST
+SHA1 6b9d0d3f74eb66e70e67ce4b0fd0a86d183f26b6 META.json
+SHA1 aef690f12153ae6d83da29a1087dd819e4406679 META.yml
+SHA1 14066e1b19059756441c5168661fb616fd0de53f Makefile.PL
+SHA1 d9bfc44dc9433f3778be0e2f7cb281bd4ede8d88 README
+SHA1 8e20f565c4fe9ef354cc95157713627f4de67d0e dist.ini
+SHA1 c878b3f759651e18925269d80923cc7ccca12268 lib/Data/Matcher.pm
+SHA1 d73e45264acabf048dab1cff949c22595b24d225 lib/Data/Matcher/Meta/Attribute/Trait/CanConfigure.pm
+SHA1 3a9d05e541f1176301ca25df278fea6e9a2ef9a1 lib/Data/Matcher/Rule.pm
+SHA1 0bcf3094ccc0be8137d5d6c170aa2a9426e1b0f3 lib/Data/Matcher/Types.pm
+SHA1 a250c6535f65817678a9aaafa6fb5a94f9e2918b lib/Moose/Meta/Attribute/Custom/Trait/CanConfigure.pm
+SHA1 8974942e6000316faa4ee72cbb6bea1502cb9335 t/01-use.t
+SHA1 2e94933ccb2227e9ba607375d4f370816e098f99 t/02-matcher.t
+SHA1 bfaaae1ff07fac71604a0ed4d4915d02d4dd9a63 t/03-matcher-rule.t
+SHA1 0b65c2614fe38ba694029649e8b020ca668a3199 t/author-critic.t
+SHA1 9fcc209ca9e2781c42018f75da213fa6f497480d t/release-eol.t
+SHA1 93797583dc7bfd6e98033c0d55f5692e5798dbf3 t/release-kwalitee.t
+SHA1 ac3b0d8532277d82b9e048ae618a32ef08868350 t/release-no-tabs.t
+SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
+SHA1 3958ebba788f1c3baebf2a2ee7a42f0eda01c991 t/release-pod-spell.t
+SHA1 4be1e0c8e385f4ef98dcce52aba9521f32a808e0 t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFMFVezwqjRn7fQy6ARAs4xAJ0czUqo0TeBxJbSw/hhkrDqOcFB/ACgtk9F
+YOZNyHAnckzafcO+okiJC2U=
+=+W62
+-----END PGP SIGNATURE-----
